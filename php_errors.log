@@ -1,0 +1,43 @@
+[05-Feb-2018 08:13:06 UTC] PHP Fatal error:  Class 'AppBundle\AppBundle' not found in /home/ubuntu/workspace/app/AppKernel.php on line 19
+[05-Feb-2018 08:13:06 UTC] PHP Stack trace:
+[05-Feb-2018 08:13:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/web/app_dev.php:0
+[05-Feb-2018 08:13:06 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/web/app_dev.php:29
+[05-Feb-2018 08:13:06 UTC] PHP   3. Symfony\Component\HttpKernel\Kernel->boot() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:197
+[05-Feb-2018 08:13:06 UTC] PHP   4. Symfony\Component\HttpKernel\Kernel->initializeBundles() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:134
+[05-Feb-2018 08:13:06 UTC] PHP   5. AppKernel->registerBundles() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:494
+[12-Feb-2018 13:38:05 UTC] PHP Warning:  Uncaught exception 'Symfony\Component\Debug\Exception\ContextErrorException' with message 'Warning: require(/home/ubuntu/workspace/var/cache/dev/ContainerSkqlcvl/getCacheWarmerService.php): failed to open stream: No such file or directory' in /home/ubuntu/workspace/var/cache/dev/ContainerSkqlcvl/appDevDebugProjectContainer.php:584
+Stack trace:
+#0 /home/ubuntu/workspace/var/cache/dev/ContainerSkqlcvl/appDevDebugProjectContainer.php(584): ContainerSkqlcvl\appDevDebugProjectContainer::load()
+#1 /home/ubuntu/workspace/var/cache/dev/classes.php(4646): ContainerSkqlcvl\appDevDebugProjectContainer->load('/home/ubuntu/wo...')
+#2 /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php(673): Symfony\Component\DependencyInjection\Container->get('cache_warmer')
+#3 /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php(137): Symfony\Component\HttpKernel\Kernel->initializeContainer()
+#4 /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/H in /home/ubuntu/workspace/var/cache/dev/ContainerSkqlcvl/appDevDebugProjectContainer.php on line 584
+[12-Feb-2018 13:38:05 UTC] PHP Stack trace:
+[12-Feb-2018 13:38:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/web/app_dev.php:0
+[12-Feb-2018 13:38:05 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/web/app_dev.php:29
+[12-Feb-2018 13:38:05 UTC] PHP   3. Symfony\Component\HttpKernel\Kernel->boot() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:197
+[12-Feb-2018 13:38:05 UTC] PHP   4. Symfony\Component\HttpKernel\Kernel->initializeContainer() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:137
+[12-Feb-2018 13:38:05 UTC] PHP   5. Symfony\Component\DependencyInjection\Container->get() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:673
+[12-Feb-2018 13:38:05 UTC] PHP   6. ContainerSkqlcvl\appDevDebugProjectContainer->load() /home/ubuntu/workspace/var/cache/dev/classes.php:4646
+[12-Feb-2018 13:38:05 UTC] PHP Fatal error:  ContainerSkqlcvl\appDevDebugProjectContainer::load(): Failed opening required '/home/ubuntu/workspace/var/cache/dev/ContainerSkqlcvl/getCacheWarmerService.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/var/cache/dev/ContainerSkqlcvl/appDevDebugProjectContainer.php on line 584
+[12-Feb-2018 13:38:05 UTC] PHP Stack trace:
+[12-Feb-2018 13:38:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/web/app_dev.php:0
+[12-Feb-2018 13:38:05 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/web/app_dev.php:29
+[12-Feb-2018 13:38:05 UTC] PHP   3. Symfony\Component\HttpKernel\Kernel->boot() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:197
+[12-Feb-2018 13:38:05 UTC] PHP   4. Symfony\Component\HttpKernel\Kernel->initializeContainer() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:137
+[12-Feb-2018 13:38:05 UTC] PHP   5. Symfony\Component\DependencyInjection\Container->get() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:673
+[12-Feb-2018 13:38:05 UTC] PHP   6. ContainerSkqlcvl\appDevDebugProjectContainer->load() /home/ubuntu/workspace/var/cache/dev/classes.php:4646
+[12-Feb-2018 13:38:18 UTC] PHP Warning:  include(/home/ubuntu/workspace/var/cache/dev/ContainerSkqlcvl/appDevDebugProjectContainer.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/var/cache/dev/appDevDebugProjectContainer.php on line 7
+[12-Feb-2018 13:38:18 UTC] PHP Stack trace:
+[12-Feb-2018 13:38:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/web/app_dev.php:0
+[12-Feb-2018 13:38:18 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/web/app_dev.php:29
+[12-Feb-2018 13:38:18 UTC] PHP   3. Symfony\Component\HttpKernel\Kernel->boot() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:197
+[12-Feb-2018 13:38:18 UTC] PHP   4. Symfony\Component\HttpKernel\Kernel->initializeContainer() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:137
+[12-Feb-2018 13:38:18 UTC] PHP   5. include() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:636
+[12-Feb-2018 13:38:18 UTC] PHP Warning:  include(): Failed opening '/home/ubuntu/workspace/var/cache/dev/ContainerSkqlcvl/appDevDebugProjectContainer.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/var/cache/dev/appDevDebugProjectContainer.php on line 7
+[12-Feb-2018 13:38:18 UTC] PHP Stack trace:
+[12-Feb-2018 13:38:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/web/app_dev.php:0
+[12-Feb-2018 13:38:18 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/web/app_dev.php:29
+[12-Feb-2018 13:38:18 UTC] PHP   3. Symfony\Component\HttpKernel\Kernel->boot() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:197
+[12-Feb-2018 13:38:18 UTC] PHP   4. Symfony\Component\HttpKernel\Kernel->initializeContainer() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:137
+[12-Feb-2018 13:38:18 UTC] PHP   5. include() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:636
