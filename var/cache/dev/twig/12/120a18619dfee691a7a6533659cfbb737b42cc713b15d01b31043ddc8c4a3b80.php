@@ -21,29 +21,29 @@ class __TwigTemplate_30e20a622b22884a3967f8e1220353b9c1e774d3cbe419356a0213ab3ad
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_7071d88a828588a839ebd575f718a9d10a8126625771ec29796fdca0b3abe3be = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_7071d88a828588a839ebd575f718a9d10a8126625771ec29796fdca0b3abe3be->enter($__internal_7071d88a828588a839ebd575f718a9d10a8126625771ec29796fdca0b3abe3be_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@App/default/index.html.twig"));
+        $__internal_9db692a123d84687bd8a48c404e7d6cb976ab519bc11f903993b693a590c32bd = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_9db692a123d84687bd8a48c404e7d6cb976ab519bc11f903993b693a590c32bd->enter($__internal_9db692a123d84687bd8a48c404e7d6cb976ab519bc11f903993b693a590c32bd_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@App/default/index.html.twig"));
 
-        $__internal_ec5eeffaf9702a9a847a35353054f2a7830041fd8488bfa5415a5177a7458ca9 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_ec5eeffaf9702a9a847a35353054f2a7830041fd8488bfa5415a5177a7458ca9->enter($__internal_ec5eeffaf9702a9a847a35353054f2a7830041fd8488bfa5415a5177a7458ca9_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@App/default/index.html.twig"));
+        $__internal_2ddd99241dd97fc867c4046e3902225e9fa74ac059ac6957b94ca64ab682c826 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_2ddd99241dd97fc867c4046e3902225e9fa74ac059ac6957b94ca64ab682c826->enter($__internal_2ddd99241dd97fc867c4046e3902225e9fa74ac059ac6957b94ca64ab682c826_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@App/default/index.html.twig"));
 
         $this->parent->display($context, array_merge($this->blocks, $blocks));
         
-        $__internal_7071d88a828588a839ebd575f718a9d10a8126625771ec29796fdca0b3abe3be->leave($__internal_7071d88a828588a839ebd575f718a9d10a8126625771ec29796fdca0b3abe3be_prof);
+        $__internal_9db692a123d84687bd8a48c404e7d6cb976ab519bc11f903993b693a590c32bd->leave($__internal_9db692a123d84687bd8a48c404e7d6cb976ab519bc11f903993b693a590c32bd_prof);
 
         
-        $__internal_ec5eeffaf9702a9a847a35353054f2a7830041fd8488bfa5415a5177a7458ca9->leave($__internal_ec5eeffaf9702a9a847a35353054f2a7830041fd8488bfa5415a5177a7458ca9_prof);
+        $__internal_2ddd99241dd97fc867c4046e3902225e9fa74ac059ac6957b94ca64ab682c826->leave($__internal_2ddd99241dd97fc867c4046e3902225e9fa74ac059ac6957b94ca64ab682c826_prof);
 
     }
 
     // line 4
     public function block_body($context, array $blocks = array())
     {
-        $__internal_2e776f50bb8f256663ed3589e24d5706c8f8e3b36475e70b5687d17309c3825a = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_2e776f50bb8f256663ed3589e24d5706c8f8e3b36475e70b5687d17309c3825a->enter($__internal_2e776f50bb8f256663ed3589e24d5706c8f8e3b36475e70b5687d17309c3825a_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
+        $__internal_92852481900df1784a05ab0c606afe749cd553f6bda0422cb0558e0837f53c30 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_92852481900df1784a05ab0c606afe749cd553f6bda0422cb0558e0837f53c30->enter($__internal_92852481900df1784a05ab0c606afe749cd553f6bda0422cb0558e0837f53c30_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
 
-        $__internal_aa5e47e182531151b81b450939fb28ea06692407ab4eb4ca0a2a5fca6a8f04f7 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_aa5e47e182531151b81b450939fb28ea06692407ab4eb4ca0a2a5fca6a8f04f7->enter($__internal_aa5e47e182531151b81b450939fb28ea06692407ab4eb4ca0a2a5fca6a8f04f7_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
+        $__internal_88d043d07fa92f8e2ea719ef615bccf5d9146fd628b5647262d4fb94bdc2db35 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_88d043d07fa92f8e2ea719ef615bccf5d9146fd628b5647262d4fb94bdc2db35->enter($__internal_88d043d07fa92f8e2ea719ef615bccf5d9146fd628b5647262d4fb94bdc2db35_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
 
         // line 5
         echo "
@@ -61,8 +61,8 @@ class __TwigTemplate_30e20a622b22884a3967f8e1220353b9c1e774d3cbe419356a0213ab3ad
         <nav class=\"header-nav-wrap\">
             <ul class=\"header-nav\">
                 <li class=\"current\"><a class=\"smoothscroll\"  href=\"#home\" title=\"home\">Accueil</a></li>
-                <li><a class=\"smoothscroll\"  href=\"#experiences\" title=\"experiences\">Expériences</a></li>
                 <li><a class=\"smoothscroll\"  href=\"#formations\" title=\"formations\">Formations</a></li>
+                <li><a class=\"smoothscroll\"  href=\"#experiences\" title=\"experiences\">Expériences</a></li>
                 <li><a class=\"smoothscroll\"  href=\"#competences\" title=\"competences\">Compétences</a></li>
                 <li><a class=\"smoothscroll\"  href=\"#loisirs\" title=\"loisirs\">Loisirs</a></li>
                 <li><a class=\"smoothscroll\"  href=\"#contact\" title=\"contact\">Contact</a></li>
@@ -88,25 +88,25 @@ class __TwigTemplate_30e20a622b22884a3967f8e1220353b9c1e774d3cbe419356a0213ab3ad
 
             <div class=\"row home-content__main\">
 
-                <h3>Hello There</h3>
+                <h3>Bienvenus</h3>
 
                 <h1>
-                    I am ";
+                    ";
         // line 44
         echo twig_escape_filter($this->env, (isset($context["firstname"]) ? $context["firstname"] : $this->getContext($context, "firstname")), "html", null, true);
         echo " ";
         echo twig_escape_filter($this->env, (isset($context["name"]) ? $context["name"] : $this->getContext($context, "name")), "html", null, true);
         echo ". <br>
-                    I am a graphic & UI/UX <br>
-                    designer based in Somewhere.
+                    Chargée de communication <br>
+                    et graphiste, Grenoble.
                 </h1>
 
                 <div class=\"home-content__buttons\">
                     <a href=\"#formations\" class=\"smoothscroll btn btn--stroke\">
-                        Latest Projects
+                        Projets
                     </a>
                     <a href=\"#experiences\" class=\"smoothscroll btn btn--stroke\">
-                        More About Me
+                        Informations
                     </a>
                 </div>
 
@@ -142,104 +142,50 @@ class __TwigTemplate_30e20a622b22884a3967f8e1220353b9c1e774d3cbe419356a0213ab3ad
     </section> <!-- end s-home -->
 
 
-    <!-- experiences
+    <!-- formations
     ================================================== -->
-    <section id=\"experiences\" class=\"s-experiences target-section\">
+    <section id=\"formations\" class=\"s-formations target-section\">
         
         <div class=\"row narrow section-intro has-bottom-sep\">
             <div class=\"col-full text-center\">
-                <h3>Experiences</h3>
-                <h1>More About Me</h1>
-                <p class=\"lead\">Lorem ipsum Dolor adipisicing nostrud et aute Excepteur amet commodo ea dolore irure esse Duis nulla sint fugiat cillum ullamco proident aliquip quis qui voluptate dolore veniam Ut laborum non est in officia.</p>
+                <br>
+                <br>
+                <br>
+                <h3>Formations</h3>
             </div>
         </div>
 
-        <div class=\"row experiences-content\">
 
-            <div class=\"col-six tab-full left\">
-                <h3>Howdy!</h3>
-
-                <p>Lorem ipsum Ut eiusmod ex magna sit dolor esse adipisicing minim ad cupidatat eu veniam nostrud mollit laboris sunt magna velit culpa consectetur nostrud consectetur labore sed do.</p>
-
-                <p>
-                Lorem ipsum Nisi officia Duis irure voluptate dolor commodo pariatur occaecat aliquip adipisicing voluptate Ut in qui ea sint occaecat in commodo in in in incididunt ut sunt in Ut Duis in ut ex qui anim cupidatat cupidatat ex in non dolore labore ea amet cillum ea qui dolor nisi sed velit mollit exercitation ex fugiat labore in deserunt culpa laborum culpa anim dolore laboris amet irure mollit proident velit fugiat aute ea elit magna consequat qui officia quis elit Duis dolor esse cupidatat tempor proident voluptate aliqua ex cupidatat do eiusmod veniam irure laborum ut magna nostrud dolore ullamco commodo elit sit magna aliqua laborum veniam officia dolor.\t
-                </p>
-            </div>
-
-            <div class=\"col-full tab-full right\">
-                <h3>I've Got Some skills.</h3>
-
-                <ul class=\"skill-bars\">
-                    <li>
-                    <div class=\"progress percent90\"><span>90%</span></div>
-                    <strong>HTML5</strong>
-                    </li>
-                    <li>
-                    <div class=\"progress percent85\"><span>85%</span></div>
-                    <strong>CSS3</strong>
-                    </li>
-                    <li>
-                    <div class=\"progress percent70\"><span>70%</span></div>
-                    <strong>JQuery</strong>
-                    </li>
-                    <li>
-                    <div class=\"progress percent95\"><span>95%</span></div>
-                    <strong>PHP</strong>
-                    </li>
-                    <li>
-                    <div class=\"progress percent75\"><span>75%</span></div>
-                    <strong>Wordpress</strong>
-                    </li>   
-                    <li>
-                    <div class=\"progress percent90\"><span>90%</span></div>
-                    <strong>Angular JS</strong>
-                    </li>   
-                </ul>
-            </div>
-
-        </div> <!-- end experiences-content -->
-
-        <div class=\"row experiences-content experiences-content--buttons\">
-
-            <div class=\"col-six tab-full left\">
-                <a href=\"#0\" class=\"btn btn--primary full-width\">Download My CV</a>
-            </div>
-            <div class=\"col-six tab-full right\">
-                <a href=\"#0\" class=\"btn full-width\">Hire Me Now</a>
-            </div>
-
-        </div> <!-- end experiences-content buttons -->
-
-        <div class=\"row experiences-content experiences-content--timeline\">
+        <div class=\"row formations-content formations-content--timeline\">
 
             <div class=\"col-full text-center\">
-                <h3>My Work Experience.</h3>
+                <h3>Mon parcours</h3>
             </div>
 
             <div class=\"col-six tab-full left\">
                 <div class=\"timeline\">
                     
                     ";
-        // line 167
+        // line 113
         $context['_parent'] = $context;
         $context['_seq'] = twig_ensure_traversable((isset($context["formations"]) ? $context["formations"] : $this->getContext($context, "formations")));
         foreach ($context['_seq'] as $context["_key"] => $context["formation"]) {
-            // line 168
+            // line 114
             echo "                        <div class=\"timeline__block\">
                             <div class=\"timeline__bullet\"></div>
                             <div class=\"timeline__header\">
                                 <p class=\"timeline__timeframe\">";
-            // line 171
+            // line 117
             echo twig_escape_filter($this->env, twig_date_format_filter($this->env, $this->getAttribute($context["formation"], "getDateDebut", array(), "method"), "Y-m-d"), "html", null, true);
             echo " - ";
             echo twig_escape_filter($this->env, twig_date_format_filter($this->env, $this->getAttribute($context["formation"], "getDateFin", array(), "method"), "Y-m-d"), "html", null, true);
             echo "</p>
                                 <h3>";
-            // line 172
+            // line 118
             echo twig_escape_filter($this->env, $this->getAttribute($context["formation"], "getName", array(), "method"), "html", null, true);
             echo "</h3>
                                 <h5>";
-            // line 173
+            // line 119
             echo twig_escape_filter($this->env, $this->getAttribute($context["formation"], "getLieu", array(), "method"), "html", null, true);
             echo "</h5>
                             </div>
@@ -252,7 +198,7 @@ class __TwigTemplate_30e20a622b22884a3967f8e1220353b9c1e774d3cbe419356a0213ab3ad
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['formation'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 180
+        // line 126
         echo "
                     
 
@@ -261,19 +207,22 @@ class __TwigTemplate_30e20a622b22884a3967f8e1220353b9c1e774d3cbe419356a0213ab3ad
                 </div> <!-- end timeline -->
             </div> <!-- end right -->
 
-        </div> <!-- end experiences-content timeline -->
+        </div> <!-- end formations-content timeline -->
 
-    </section> <!-- end experiences -->
+    </section> <!-- end formations -->
     
 
-    <!-- formations
+    <!-- experiences
     ================================================== -->
-    <section id=\"formations\" class=\"s-formations target-section\">
+    <section id=\"experiences\" class=\"s-experiences target-section\">
 
         <div class=\"row narrow section-intro has-bottom-sep\">
             <div class=\"col-full\">
-                <h3>Formations</h3>
-                <h1>See My Latest Projects.</h1>
+                <br>
+                <br>
+                <br>
+                <h3>Expériences</h3>
+                <h1>Mes derniers travaux</h1>
                 
                 <p class=\"lead\">Lorem ipsum Dolor adipisicing nostrud et aute Excepteur amet commodo ea dolore irure esse Duis nulla sint fugiat cillum ullamco proident aliquip quis qui voluptate dolore veniam Ut laborum non est in officia.</p>
             </div>
@@ -288,7 +237,7 @@ class __TwigTemplate_30e20a622b22884a3967f8e1220353b9c1e774d3cbe419356a0213ab3ad
                         <div class=\"item-folio__thumb\">
                             <a href=\"images/portfolio/gallery/g-beetle.jpg\" class=\"thumb-link\" title=\"The Beetle Car\" data-size=\"1050x700\">
                                 <img src=\"";
-        // line 214
+        // line 163
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("template/images/portfolio/beetle.jpg"), "html", null, true);
         echo "\" 
                                      srcset=\"/web/template/images/portfolio/beetle.jpg 1x, /web/template/images/portfolio/beetle@2x.jpg 2x\" alt=\"\">
@@ -322,7 +271,7 @@ class __TwigTemplate_30e20a622b22884a3967f8e1220353b9c1e774d3cbe419356a0213ab3ad
                         <div class=\"item-folio__thumb\"> 
                             <a href=\"images/portfolio/gallery/g-lighthouse.jpg\" class=\"thumb-link\" title=\"Lighthouse\" data-size=\"1050x700\">
                                 <img src=\"";
-        // line 245
+        // line 194
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("template/images/portfolio/lighthouse.jpg"), "html", null, true);
         echo "\" 
                                      srcset=\"/web/template/images/portfolio/lighthouse.jpg 1x, /web/template/images/portfolio/lighthouse@2x.jpg 2x\" alt=\"\">
@@ -356,7 +305,7 @@ class __TwigTemplate_30e20a622b22884a3967f8e1220353b9c1e774d3cbe419356a0213ab3ad
                         <div class=\"item-folio__thumb\">
                             <a href=\"images/portfolio/gallery/g-salad.jpg\" class=\"thumb-link\" data-size=\"1050x700\">
                                 <img src=\"";
-        // line 276
+        // line 225
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("template/images/portfolio/salad.jpg"), "html", null, true);
         echo "\" 
                                      srcset=\"/web/template/images/portfolio/salad.jpg 1x, /web/template/images/portfolio/salad@2x.jpg 2x\" alt=\"\">
@@ -390,7 +339,7 @@ class __TwigTemplate_30e20a622b22884a3967f8e1220353b9c1e774d3cbe419356a0213ab3ad
                         <div class=\"item-folio__thumb\">
                             <a href=\"images/portfolio/gallery/g-woodcraft.jpg\" class=\"thumb-link\" data-size=\"1050x700\">
                                 <img src=\"";
-        // line 307
+        // line 256
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("template/images/portfolio/woodcraft.jpg"), "html", null, true);
         echo "\"
                                      srcset=\"/web/template/images/portfolio/woodcraft.jpg 1x, /web/template/images/portfolio/woodcraft@2x.jpg 2x\" alt=\"\">
@@ -424,7 +373,7 @@ class __TwigTemplate_30e20a622b22884a3967f8e1220353b9c1e774d3cbe419356a0213ab3ad
                         <div class=\"item-folio__thumb\">
                             <a href=\"images/portfolio/gallery/g-skaterboy.jpg\" class=\"thumb-link\" data-size=\"1050x700\">
                                 <img src=\"";
-        // line 338
+        // line 287
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("template/images/portfolio/skaterboy.jpg"), "html", null, true);
         echo "\"
                                      srcset=\"/web/template/images/portfolio/skaterboy.jpg 1x, /web/template/images/portfolio/skaterboy@2x.jpg 2x\" alt=\"\">
@@ -458,7 +407,7 @@ class __TwigTemplate_30e20a622b22884a3967f8e1220353b9c1e774d3cbe419356a0213ab3ad
                         <div class=\"item-folio__thumb\">
                             <a href=\"images/portfolio/gallery/g-liberty.jpg\" class=\"thumb-link\" data-size=\"1050x700\">
                                 <img src=\"";
-        // line 369
+        // line 318
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("template/images/portfolio/liberty.jpg"), "html", null, true);
         echo "\"
                                      srcset=\"/web/template/images/portfolio/liberty.jpg 1x, /web/template/images/portfolio/liberty@2x.jpg 2x\" alt=\"\">
@@ -492,7 +441,7 @@ class __TwigTemplate_30e20a622b22884a3967f8e1220353b9c1e774d3cbe419356a0213ab3ad
                         <div class=\"item-folio__thumb\">
                             <a href=\"images/portfolio/gallery/g-minimalismo.jpg\" class=\"thumb-link\" data-size=\"1050x700\">
                                 <img src=\"";
-        // line 400
+        // line 349
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("template/images/portfolio/minimalismo.jpg"), "html", null, true);
         echo "\"
                                      srcset=\"/web/template/images/portfolio/minimalismo.jpg 1x, /web/template/images/portfolio/minimalismo@2x.jpg 2x\" alt=\"\">
@@ -526,7 +475,7 @@ class __TwigTemplate_30e20a622b22884a3967f8e1220353b9c1e774d3cbe419356a0213ab3ad
                         <div class=\"item-folio__thumb\">
                             <a href=\"images/portfolio/gallery/g-shutterbug.jpg\" class=\"thumb-link\" data-size=\"1050x700\">
                                 <img src=\"";
-        // line 431
+        // line 380
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("template/images/portfolio/shutterbug.jpg"), "html", null, true);
         echo "\"
                                      srcset=\"/web/template/images/portfolio/shutterbug.jpg 1x, /web/template/images/portfolio/shutterbug@2x.jpg 2x\" alt=\"\">
@@ -557,80 +506,9 @@ class __TwigTemplate_30e20a622b22884a3967f8e1220353b9c1e774d3cbe419356a0213ab3ad
             </div>
         </div> <!-- end masonry -->
 
-    </section> <!-- end formations -->
+    </section> <!-- end experiences -->
 
 
-
-    <!-- testimonials
-    ================================================== -->
-    <div class=\"s-testimonials\">
-
-        <div class=\"overlay\"></div>
-
-        <div class=\"row testimonials-header\">
-            <div class=\"col-full\">
-                <h1 class=\"h02\">c</h1>
-            </div>
-        </div>
-
-        <div class=\"col-md-9\">
-                    <div class=\"row\">
-                        <div class=\"col-md-12\">
-                            ";
-        // line 479
-        $context['_parent'] = $context;
-        $context['_seq'] = twig_ensure_traversable((isset($context["formations"]) ? $context["formations"] : $this->getContext($context, "formations")));
-        foreach ($context['_seq'] as $context["_key"] => $context["formation"]) {
-            // line 480
-            echo "                                <div class=\"content-item\">
-                                    <small>";
-            // line 481
-            echo twig_escape_filter($this->env, twig_date_format_filter($this->env, $this->getAttribute($context["formation"], "getDateDebut", array(), "method"), "Y-m-d"), "html", null, true);
-            echo " - ";
-            echo twig_escape_filter($this->env, twig_date_format_filter($this->env, $this->getAttribute($context["formation"], "getDateFin", array(), "method"), "Y-m-d"), "html", null, true);
-            echo "</small>
-                                    <h3>";
-            // line 482
-            echo twig_escape_filter($this->env, $this->getAttribute($context["formation"], "getName", array(), "method"), "html", null, true);
-            echo "</h3>
-                                    <h4>";
-            // line 483
-            echo twig_escape_filter($this->env, $this->getAttribute($context["formation"], "getLieu", array(), "method"), "html", null, true);
-            echo "</h4>
-
-                                    <p></p>
-                                </div>
-                            ";
-        }
-        $_parent = $context['_parent'];
-        unset($context['_seq'], $context['_iterated'], $context['_key'], $context['formation'], $context['_parent'], $context['loop']);
-        $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 488
-        echo "                            <!-- .experience-item -->
-                            <div class=\"content-item\">
-                                <small>2007 - 2010</small>
-                                <h3>Business marketing course</h3>
-                                <h4>Royal Academy of Business</h4>
-
-                                <p>United Kingdom, London</p>
-                            </div>
-                            <!-- .experience-item -->
-                            <div class=\"content-item\">
-                                <small>2002 - 2006</small>
-                                <h3>BA (Hons) Design</h3>
-                                <h4>University of Michigan</h4>
-
-                                <p>United Kingdom, London</p>
-                            </div>
-                            <!-- .experience-item -->
-                        </div>
-                    </div>
-                    <!--.row-->
-                </div>
-
-</div>
-
-    </div> <!-- end s-testimonials -->
 
 
     <!-- competences
@@ -639,87 +517,57 @@ class __TwigTemplate_30e20a622b22884a3967f8e1220353b9c1e774d3cbe419356a0213ab3ad
 
         <div class=\"row narrow section-intro has-bottom-sep\">
             <div class=\"col-full\">
-                <h3>Journal</h3>
+                <br>
+                <br>
+                <br>
+                <h3>Compétences</h3>
                 <h1>Latest From The Blog.</h1>
                 <p class=\"lead\">Lorem ipsum Dolor adipisicing nostrud et aute. 
                 Excepteur amet commodo ea dolore irure esse Duis nulla sint fugiat cillum 
                 ullamco proident aliquip quis qui voluptate dolore veniam Ut laborum non est in officia.</p>
             </div>
         </div>
+        
+        
+        <div class=\"row experiences-content\">
 
-        <div class=\"row competences-content\">
-            <div class=\"col-full\">
+            <div class=\"col-full tab-full right\">
+                <h3>Compétences</h3>
 
-                <div class=\"competences-list block-1-2 block-tab-full\">
-                    <article class=\"col-block\">
-                                
-                        <div class=\"competences-date\">
-                            <a href=\"competences-single.html\">Sept 16, 2017</a>
-                        </div>  
-                        
-                        <h2 class=\"h01\"><a href=\"competences-single.html\">The 10 Golden Rules of Clean Simple Design.</a></h2>
-                        <p>
-                        Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Pellentesque in ipsum id orci porta dapibus. Donec sollicitudin molestie malesuada. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Cras ultricies ligula sed magna dictum porta. Sed porttitor lectus nibh..
-                        </p>
+                <ul class=\"skill-bars\">
+                    <li>
+                    <div class=\"progress percent90\"><span>90%</span></div>
+                    <strong>Indesign</strong>
+                    </li>
+                    <li>
+                    <div class=\"progress percent85\"><span>85%</span></div>
+                    <strong>Premiere Pro</strong>
+                    </li>
+                    <li>
+                    <div class=\"progress percent70\"><span>70%</span></div>
+                    <strong>Photoshop</strong>
+                    </li>
+                    <li>
+                    <div class=\"progress percent75\"><span>75%</span></div>
+                    <strong>Illustrator</strong>
+                    </li>   
+                </ul>
+            </div>
 
-                        <div class=\"competences-cat\">
-                                <a href=\"competences.html\">Branding</a><a href=\"competences.html\">Design</a>
-                        </div>
+        </div> <!-- end experiences-content -->
 
-                        
-                    </article>
-                    <article class=\"col-block\">
-                                
-                        <div class=\"competences-date\">
-                            <a href=\"competences-single.html\">Sept 15, 2017</a>
-                        </div>  
-                        
-                        <h2 class=\"h01\"><a href=\"competences-single.html\">Photography Can Improve Your Graphic Design.</a></h2>
-                        <p>
-                        Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Pellentesque in ipsum id orci porta dapibus. Donec sollicitudin molestie malesuada. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Cras ultricies ligula sed magna dictum porta. Sed porttitor lectus nibh..
-                        </p>
+        <div class=\"row experiences-content experiences-content--buttons\">
 
-                        <div class=\"competences-cat\">
-                            <a href=\"competences.html\">Photography</a>
-                        </div>
+            <div class=\"col-six tab-full left\">
+                <a href=\"#0\" class=\"btn btn--primary full-width\">Download My CV</a>
+            </div>
+            <div class=\"col-six tab-full right\">
+                <a href=\"#0\" class=\"btn full-width\">Hire Me Now</a>
+            </div>
 
-                        
-                    </article>
-                    <article class=\"col-block\">
-                        
-                        <div class=\"competences-date\">
-                            <a href=\"competences-single.html\">Sept 14, 2017</a>
-                        </div>
+        </div> <!-- end experiences-content buttons -->
 
-                        <h2 class=\"h01\"><a href=\"competences-single.html\">Workspace Design Trends and Ideas.</a></h2>
-                        <p>
-                        Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Pellentesque in ipsum id orci porta dapibus. Donec sollicitudin molestie malesuada. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Cras ultricies ligula sed magna dictum porta. Sed porttitor lectus nibh dolore irure esse Duis nulla sint.
-                        </p>
-
-                        <div class=\"competences-cat\">
-                            <a href=\"competences.html\">Branding</a><a href=\"competences.html\">Wordpress</a>
-                        </div>
-                    </article>
-                    <article class=\"col-block\">
-                        
-                        <div class=\"competences-date\">
-                            <a href=\"competences-single.html\">Sept 12, 2017</a>
-                        </div>    
-                        <h2 class=\"h01\"><a href=\"competences-single.html\">Using Patterns in your Branding.</a></h2>
-                        <p>
-                        Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Pellentesque in ipsum id orci porta dapibus. Donec sollicitudin molestie malesuada. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Cras ultricies ligula sed magna dictum porta. Sed porttitor lectus nibh.
-                        </p>
-
-                        <div class=\"competences-cat\">
-                            <a href=\"competences.html\">Design</a><a href=\"competences.html\">Branding</a>
-                        </div>
-                    </article>
-                </div> <!-- end competences-list -->
-
-            </div> <!-- end col-full -->
-        </div> <!-- end competences-content -->
-
-    </section> <!-- end s-competences -->
+        
 
 
     <!-- s-cta
@@ -786,46 +634,85 @@ class __TwigTemplate_30e20a622b22884a3967f8e1220353b9c1e774d3cbe419356a0213ab3ad
     
     
     
+
+    <!-- testimonials
+    ================================================== -->
+    <div class=\"s-testimonials\">
+
+        <div class=\"overlay\"></div>
+
+        <div class=\"row testimonials-header\">
+            <div class=\"col-full\">
+                <h1 class=\"h02\">Loisirs</h1>
+            </div>
+        </div>
+
+        <div class=\"col-md-9\">
+                    <div class=\"row\">
+                        <div class=\"col-md-12\">
+                            ";
+        // line 553
+        $context['_parent'] = $context;
+        $context['_seq'] = twig_ensure_traversable((isset($context["formations"]) ? $context["formations"] : $this->getContext($context, "formations")));
+        foreach ($context['_seq'] as $context["_key"] => $context["formation"]) {
+            // line 554
+            echo "                                <div class=\"content-item\">
+                                    <small>";
+            // line 555
+            echo twig_escape_filter($this->env, twig_date_format_filter($this->env, $this->getAttribute($context["formation"], "getDateDebut", array(), "method"), "Y-m-d"), "html", null, true);
+            echo " - ";
+            echo twig_escape_filter($this->env, twig_date_format_filter($this->env, $this->getAttribute($context["formation"], "getDateFin", array(), "method"), "Y-m-d"), "html", null, true);
+            echo "</small>
+                                    <h3>";
+            // line 556
+            echo twig_escape_filter($this->env, $this->getAttribute($context["formation"], "getName", array(), "method"), "html", null, true);
+            echo "</h3>
+                                    <h4>";
+            // line 557
+            echo twig_escape_filter($this->env, $this->getAttribute($context["formation"], "getLieu", array(), "method"), "html", null, true);
+            echo "</h4>
+
+                                    <p></p>
+                                </div>
+                            ";
+        }
+        $_parent = $context['_parent'];
+        unset($context['_seq'], $context['_iterated'], $context['_key'], $context['formation'], $context['_parent'], $context['loop']);
+        $context = array_intersect_key($context, $_parent) + $_parent;
+        // line 562
+        echo "                            
+                            <!-- .experience-item -->
+                        </div>
+                    </div>
+                    <!--.row-->
+                </div>
+
+</div>
+
+    </div> <!-- end s-testimonials -->
     
     
     <!-- loisirs
     ================================================== -->
     <section id=\"loisirs\" class=\"s-loisirs target-section\">
         
-        <div class=\"row narrow section-intro has-bottom-sep\">
-            <div class=\"col-full text-center\">
-                <h3>Loisirs</h3>
-                <p class=\"lead\">Lorem ipsum Dolor adipisicing nostrud et aute Excepteur amet commodo ea dolore irure esse Duis nulla sint fugiat cillum ullamco proident aliquip quis qui voluptate dolore veniam Ut laborum non est in officia.</p>
-            </div>
-        </div>
-
         <div class=\"row loisirs-content\">
 
-            <div class=\"col-six tab-full left\">
-                <h3>Howdy!</h3>
-
-                <p>Lorem ipsum Ut eiusmod ex magna sit dolor esse adipisicing minim ad cupidatat eu veniam nostrud mollit laboris sunt magna velit culpa consectetur nostrud consectetur labore sed do.</p>
-
-                <p>
-                Lorem ipsum Nisi officia Duis irure voluptate dolor commodo pariatur occaecat aliquip adipisicing voluptate Ut in qui ea sint occaecat in commodo in in in incididunt ut sunt in Ut Duis in ut ex qui anim cupidatat cupidatat ex in non dolore labore ea amet cillum ea qui dolor nisi sed velit mollit exercitation ex fugiat labore in deserunt culpa laborum culpa anim dolore laboris amet irure mollit proident velit fugiat aute ea elit magna consequat qui officia quis elit Duis dolor esse cupidatat tempor proident voluptate aliqua ex cupidatat do eiusmod veniam irure laborum ut magna nostrud dolore ullamco commodo elit sit magna aliqua laborum veniam officia dolor.\t
-                </p>
-            </div>
-
             <div class=\"col-full tab-full right\">
-                <h3>I've Got Some skills.</h3>
+                <h3>I've Got Some hobbies.</h3>
 
                 <ul class=\"skill-bars\">
                     <li>
                     <div class=\"progress percent90\"><span>90%</span></div>
-                    <strong>2ème cycle de piano</strong>
+                    <strong>Piano</strong>
                     </li>
                     <li>
                     <div class=\"progress percent85\"><span>70%</span></div>
-                    <strong>Badminton</strong>
+                    <strong>Photographie</strong>
                     </li>
                     <li>
                     <div class=\"progress percent70\"><span>85%</span></div>
-                    <strong>Photographie</strong>
+                    <strong>Badminton</strong>
                     </li>
                    
                 </ul>
@@ -839,39 +726,37 @@ class __TwigTemplate_30e20a622b22884a3967f8e1220353b9c1e774d3cbe419356a0213ab3ad
                 <div class=\"timeline\">
                     
                     ";
-        // line 720
+        // line 607
         $context['_parent'] = $context;
         $context['_seq'] = twig_ensure_traversable((isset($context["formations"]) ? $context["formations"] : $this->getContext($context, "formations")));
         foreach ($context['_seq'] as $context["_key"] => $context["formation"]) {
-            // line 721
+            // line 608
             echo "                        <div class=\"timeline__block\">
                             <div class=\"timeline__bullet\"></div>
                             <div class=\"timeline__header\">
                                 <p class=\"timeline__timeframe\">";
-            // line 724
+            // line 611
             echo twig_escape_filter($this->env, twig_date_format_filter($this->env, $this->getAttribute($context["formation"], "getDateDebut", array(), "method"), "Y-m-d"), "html", null, true);
             echo " - ";
             echo twig_escape_filter($this->env, twig_date_format_filter($this->env, $this->getAttribute($context["formation"], "getDateFin", array(), "method"), "Y-m-d"), "html", null, true);
             echo "</p>
                                 <h3>";
-            // line 725
+            // line 612
             echo twig_escape_filter($this->env, $this->getAttribute($context["formation"], "getName", array(), "method"), "html", null, true);
             echo "</h3>
                                 <h5>";
-            // line 726
+            // line 613
             echo twig_escape_filter($this->env, $this->getAttribute($context["formation"], "getLieu", array(), "method"), "html", null, true);
             echo "</h5>
                             </div>
-                            <div class=\"timeline__desc\">
-                                <p>Lorem ipsum Occaecat do esse ex et dolor culpa nisi ex in magna consectetur nisi cupidatat laboris esse eiusmod deserunt aute do quis velit esse sed Ut proident cupidatat nulla esse cillum laborum occaecat nostrud sit dolor incididunt amet est occaecat nisi.</p>
-                            </div>
+                            
                         </div> <!-- end timeline__block -->
                     ";
         }
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['formation'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 733
+        // line 618
         echo "
                 </div> <!-- end timeline -->
             </div> <!-- end right -->
@@ -943,8 +828,7 @@ class __TwigTemplate_30e20a622b22884a3967f8e1220353b9c1e774d3cbe419356a0213ab3ad
             </div>
             <div class=\"col-four tab-full contact__infos\">
                 <h4 class=\"h06\">Phone</h4>
-                <p>Phone: (+63) 555 1212<br>
-                Mobile: (+63) 555 0100
+                <p>Mobile: 06 40 42 83 62
                 </p>
 
                 <h4 class=\"h06\">Email</h4>
@@ -970,7 +854,7 @@ class __TwigTemplate_30e20a622b22884a3967f8e1220353b9c1e774d3cbe419356a0213ab3ad
 
                 <div class=\"footer-logo\">
                     <a class=\"footer-site-logo\" href=\"#0\"><img src=\"";
-        // line 830
+        // line 714
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("template/images/logo.png"), "html", null, true);
         echo "\" alt=\"-s--Homepage}}\"/>    </a>
                     </div>
@@ -1063,10 +947,10 @@ class __TwigTemplate_30e20a622b22884a3967f8e1220353b9c1e774d3cbe419356a0213ab3ad
     </div>
 ";
         
-        $__internal_aa5e47e182531151b81b450939fb28ea06692407ab4eb4ca0a2a5fca6a8f04f7->leave($__internal_aa5e47e182531151b81b450939fb28ea06692407ab4eb4ca0a2a5fca6a8f04f7_prof);
+        $__internal_88d043d07fa92f8e2ea719ef615bccf5d9146fd628b5647262d4fb94bdc2db35->leave($__internal_88d043d07fa92f8e2ea719ef615bccf5d9146fd628b5647262d4fb94bdc2db35_prof);
 
         
-        $__internal_2e776f50bb8f256663ed3589e24d5706c8f8e3b36475e70b5687d17309c3825a->leave($__internal_2e776f50bb8f256663ed3589e24d5706c8f8e3b36475e70b5687d17309c3825a_prof);
+        $__internal_92852481900df1784a05ab0c606afe749cd553f6bda0422cb0558e0837f53c30->leave($__internal_92852481900df1784a05ab0c606afe749cd553f6bda0422cb0558e0837f53c30_prof);
 
     }
 
@@ -1082,7 +966,7 @@ class __TwigTemplate_30e20a622b22884a3967f8e1220353b9c1e774d3cbe419356a0213ab3ad
 
     public function getDebugInfo()
     {
-        return array (  974 => 830,  875 => 733,  862 => 726,  858 => 725,  852 => 724,  847 => 721,  843 => 720,  609 => 488,  598 => 483,  594 => 482,  588 => 481,  585 => 480,  581 => 479,  530 => 431,  496 => 400,  462 => 369,  428 => 338,  394 => 307,  360 => 276,  326 => 245,  292 => 214,  256 => 180,  243 => 173,  239 => 172,  233 => 171,  228 => 168,  224 => 167,  96 => 44,  81 => 32,  57 => 11,  49 => 5,  40 => 4,  11 => 2,);
+        return array (  858 => 714,  760 => 618,  749 => 613,  745 => 612,  739 => 611,  734 => 608,  730 => 607,  683 => 562,  672 => 557,  668 => 556,  662 => 555,  659 => 554,  655 => 553,  479 => 380,  445 => 349,  411 => 318,  377 => 287,  343 => 256,  309 => 225,  275 => 194,  241 => 163,  202 => 126,  189 => 119,  185 => 118,  179 => 117,  174 => 114,  170 => 113,  96 => 44,  81 => 32,  57 => 11,  49 => 5,  40 => 4,  11 => 2,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -1111,8 +995,8 @@ class __TwigTemplate_30e20a622b22884a3967f8e1220353b9c1e774d3cbe419356a0213ab3ad
         <nav class=\"header-nav-wrap\">
             <ul class=\"header-nav\">
                 <li class=\"current\"><a class=\"smoothscroll\"  href=\"#home\" title=\"home\">Accueil</a></li>
-                <li><a class=\"smoothscroll\"  href=\"#experiences\" title=\"experiences\">Expériences</a></li>
                 <li><a class=\"smoothscroll\"  href=\"#formations\" title=\"formations\">Formations</a></li>
+                <li><a class=\"smoothscroll\"  href=\"#experiences\" title=\"experiences\">Expériences</a></li>
                 <li><a class=\"smoothscroll\"  href=\"#competences\" title=\"competences\">Compétences</a></li>
                 <li><a class=\"smoothscroll\"  href=\"#loisirs\" title=\"loisirs\">Loisirs</a></li>
                 <li><a class=\"smoothscroll\"  href=\"#contact\" title=\"contact\">Contact</a></li>
@@ -1135,20 +1019,20 @@ class __TwigTemplate_30e20a622b22884a3967f8e1220353b9c1e774d3cbe419356a0213ab3ad
 
             <div class=\"row home-content__main\">
 
-                <h3>Hello There</h3>
+                <h3>Bienvenus</h3>
 
                 <h1>
-                    I am {{ firstname }} {{ name }}. <br>
-                    I am a graphic & UI/UX <br>
-                    designer based in Somewhere.
+                    {{ firstname }} {{ name }}. <br>
+                    Chargée de communication <br>
+                    et graphiste, Grenoble.
                 </h1>
 
                 <div class=\"home-content__buttons\">
                     <a href=\"#formations\" class=\"smoothscroll btn btn--stroke\">
-                        Latest Projects
+                        Projets
                     </a>
                     <a href=\"#experiences\" class=\"smoothscroll btn btn--stroke\">
-                        More About Me
+                        Informations
                     </a>
                 </div>
 
@@ -1184,78 +1068,24 @@ class __TwigTemplate_30e20a622b22884a3967f8e1220353b9c1e774d3cbe419356a0213ab3ad
     </section> <!-- end s-home -->
 
 
-    <!-- experiences
+    <!-- formations
     ================================================== -->
-    <section id=\"experiences\" class=\"s-experiences target-section\">
+    <section id=\"formations\" class=\"s-formations target-section\">
         
         <div class=\"row narrow section-intro has-bottom-sep\">
             <div class=\"col-full text-center\">
-                <h3>Experiences</h3>
-                <h1>More About Me</h1>
-                <p class=\"lead\">Lorem ipsum Dolor adipisicing nostrud et aute Excepteur amet commodo ea dolore irure esse Duis nulla sint fugiat cillum ullamco proident aliquip quis qui voluptate dolore veniam Ut laborum non est in officia.</p>
+                <br>
+                <br>
+                <br>
+                <h3>Formations</h3>
             </div>
         </div>
 
-        <div class=\"row experiences-content\">
 
-            <div class=\"col-six tab-full left\">
-                <h3>Howdy!</h3>
-
-                <p>Lorem ipsum Ut eiusmod ex magna sit dolor esse adipisicing minim ad cupidatat eu veniam nostrud mollit laboris sunt magna velit culpa consectetur nostrud consectetur labore sed do.</p>
-
-                <p>
-                Lorem ipsum Nisi officia Duis irure voluptate dolor commodo pariatur occaecat aliquip adipisicing voluptate Ut in qui ea sint occaecat in commodo in in in incididunt ut sunt in Ut Duis in ut ex qui anim cupidatat cupidatat ex in non dolore labore ea amet cillum ea qui dolor nisi sed velit mollit exercitation ex fugiat labore in deserunt culpa laborum culpa anim dolore laboris amet irure mollit proident velit fugiat aute ea elit magna consequat qui officia quis elit Duis dolor esse cupidatat tempor proident voluptate aliqua ex cupidatat do eiusmod veniam irure laborum ut magna nostrud dolore ullamco commodo elit sit magna aliqua laborum veniam officia dolor.\t
-                </p>
-            </div>
-
-            <div class=\"col-full tab-full right\">
-                <h3>I've Got Some skills.</h3>
-
-                <ul class=\"skill-bars\">
-                    <li>
-                    <div class=\"progress percent90\"><span>90%</span></div>
-                    <strong>HTML5</strong>
-                    </li>
-                    <li>
-                    <div class=\"progress percent85\"><span>85%</span></div>
-                    <strong>CSS3</strong>
-                    </li>
-                    <li>
-                    <div class=\"progress percent70\"><span>70%</span></div>
-                    <strong>JQuery</strong>
-                    </li>
-                    <li>
-                    <div class=\"progress percent95\"><span>95%</span></div>
-                    <strong>PHP</strong>
-                    </li>
-                    <li>
-                    <div class=\"progress percent75\"><span>75%</span></div>
-                    <strong>Wordpress</strong>
-                    </li>   
-                    <li>
-                    <div class=\"progress percent90\"><span>90%</span></div>
-                    <strong>Angular JS</strong>
-                    </li>   
-                </ul>
-            </div>
-
-        </div> <!-- end experiences-content -->
-
-        <div class=\"row experiences-content experiences-content--buttons\">
-
-            <div class=\"col-six tab-full left\">
-                <a href=\"#0\" class=\"btn btn--primary full-width\">Download My CV</a>
-            </div>
-            <div class=\"col-six tab-full right\">
-                <a href=\"#0\" class=\"btn full-width\">Hire Me Now</a>
-            </div>
-
-        </div> <!-- end experiences-content buttons -->
-
-        <div class=\"row experiences-content experiences-content--timeline\">
+        <div class=\"row formations-content formations-content--timeline\">
 
             <div class=\"col-full text-center\">
-                <h3>My Work Experience.</h3>
+                <h3>Mon parcours</h3>
             </div>
 
             <div class=\"col-six tab-full left\">
@@ -1282,19 +1112,22 @@ class __TwigTemplate_30e20a622b22884a3967f8e1220353b9c1e774d3cbe419356a0213ab3ad
                 </div> <!-- end timeline -->
             </div> <!-- end right -->
 
-        </div> <!-- end experiences-content timeline -->
+        </div> <!-- end formations-content timeline -->
 
-    </section> <!-- end experiences -->
+    </section> <!-- end formations -->
     
 
-    <!-- formations
+    <!-- experiences
     ================================================== -->
-    <section id=\"formations\" class=\"s-formations target-section\">
+    <section id=\"experiences\" class=\"s-experiences target-section\">
 
         <div class=\"row narrow section-intro has-bottom-sep\">
             <div class=\"col-full\">
-                <h3>Formations</h3>
-                <h1>See My Latest Projects.</h1>
+                <br>
+                <br>
+                <br>
+                <h3>Expériences</h3>
+                <h1>Mes derniers travaux</h1>
                 
                 <p class=\"lead\">Lorem ipsum Dolor adipisicing nostrud et aute Excepteur amet commodo ea dolore irure esse Duis nulla sint fugiat cillum ullamco proident aliquip quis qui voluptate dolore veniam Ut laborum non est in officia.</p>
             </div>
@@ -1554,59 +1387,9 @@ class __TwigTemplate_30e20a622b22884a3967f8e1220353b9c1e774d3cbe419356a0213ab3ad
             </div>
         </div> <!-- end masonry -->
 
-    </section> <!-- end formations -->
+    </section> <!-- end experiences -->
 
 
-
-    <!-- testimonials
-    ================================================== -->
-    <div class=\"s-testimonials\">
-
-        <div class=\"overlay\"></div>
-
-        <div class=\"row testimonials-header\">
-            <div class=\"col-full\">
-                <h1 class=\"h02\">c</h1>
-            </div>
-        </div>
-
-        <div class=\"col-md-9\">
-                    <div class=\"row\">
-                        <div class=\"col-md-12\">
-                            {% for formation in formations %}
-                                <div class=\"content-item\">
-                                    <small>{{ formation.getDateDebut()|date(\"Y-m-d\") }} - {{ formation.getDateFin()|date(\"Y-m-d\") }}</small>
-                                    <h3>{{ formation.getName() }}</h3>
-                                    <h4>{{ formation.getLieu() }}</h4>
-
-                                    <p></p>
-                                </div>
-                            {% endfor %}
-                            <!-- .experience-item -->
-                            <div class=\"content-item\">
-                                <small>2007 - 2010</small>
-                                <h3>Business marketing course</h3>
-                                <h4>Royal Academy of Business</h4>
-
-                                <p>United Kingdom, London</p>
-                            </div>
-                            <!-- .experience-item -->
-                            <div class=\"content-item\">
-                                <small>2002 - 2006</small>
-                                <h3>BA (Hons) Design</h3>
-                                <h4>University of Michigan</h4>
-
-                                <p>United Kingdom, London</p>
-                            </div>
-                            <!-- .experience-item -->
-                        </div>
-                    </div>
-                    <!--.row-->
-                </div>
-
-</div>
-
-    </div> <!-- end s-testimonials -->
 
 
     <!-- competences
@@ -1615,87 +1398,57 @@ class __TwigTemplate_30e20a622b22884a3967f8e1220353b9c1e774d3cbe419356a0213ab3ad
 
         <div class=\"row narrow section-intro has-bottom-sep\">
             <div class=\"col-full\">
-                <h3>Journal</h3>
+                <br>
+                <br>
+                <br>
+                <h3>Compétences</h3>
                 <h1>Latest From The Blog.</h1>
                 <p class=\"lead\">Lorem ipsum Dolor adipisicing nostrud et aute. 
                 Excepteur amet commodo ea dolore irure esse Duis nulla sint fugiat cillum 
                 ullamco proident aliquip quis qui voluptate dolore veniam Ut laborum non est in officia.</p>
             </div>
         </div>
+        
+        
+        <div class=\"row experiences-content\">
 
-        <div class=\"row competences-content\">
-            <div class=\"col-full\">
+            <div class=\"col-full tab-full right\">
+                <h3>Compétences</h3>
 
-                <div class=\"competences-list block-1-2 block-tab-full\">
-                    <article class=\"col-block\">
-                                
-                        <div class=\"competences-date\">
-                            <a href=\"competences-single.html\">Sept 16, 2017</a>
-                        </div>  
-                        
-                        <h2 class=\"h01\"><a href=\"competences-single.html\">The 10 Golden Rules of Clean Simple Design.</a></h2>
-                        <p>
-                        Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Pellentesque in ipsum id orci porta dapibus. Donec sollicitudin molestie malesuada. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Cras ultricies ligula sed magna dictum porta. Sed porttitor lectus nibh..
-                        </p>
+                <ul class=\"skill-bars\">
+                    <li>
+                    <div class=\"progress percent90\"><span>90%</span></div>
+                    <strong>Indesign</strong>
+                    </li>
+                    <li>
+                    <div class=\"progress percent85\"><span>85%</span></div>
+                    <strong>Premiere Pro</strong>
+                    </li>
+                    <li>
+                    <div class=\"progress percent70\"><span>70%</span></div>
+                    <strong>Photoshop</strong>
+                    </li>
+                    <li>
+                    <div class=\"progress percent75\"><span>75%</span></div>
+                    <strong>Illustrator</strong>
+                    </li>   
+                </ul>
+            </div>
 
-                        <div class=\"competences-cat\">
-                                <a href=\"competences.html\">Branding</a><a href=\"competences.html\">Design</a>
-                        </div>
+        </div> <!-- end experiences-content -->
 
-                        
-                    </article>
-                    <article class=\"col-block\">
-                                
-                        <div class=\"competences-date\">
-                            <a href=\"competences-single.html\">Sept 15, 2017</a>
-                        </div>  
-                        
-                        <h2 class=\"h01\"><a href=\"competences-single.html\">Photography Can Improve Your Graphic Design.</a></h2>
-                        <p>
-                        Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Pellentesque in ipsum id orci porta dapibus. Donec sollicitudin molestie malesuada. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Cras ultricies ligula sed magna dictum porta. Sed porttitor lectus nibh..
-                        </p>
+        <div class=\"row experiences-content experiences-content--buttons\">
 
-                        <div class=\"competences-cat\">
-                            <a href=\"competences.html\">Photography</a>
-                        </div>
+            <div class=\"col-six tab-full left\">
+                <a href=\"#0\" class=\"btn btn--primary full-width\">Download My CV</a>
+            </div>
+            <div class=\"col-six tab-full right\">
+                <a href=\"#0\" class=\"btn full-width\">Hire Me Now</a>
+            </div>
 
-                        
-                    </article>
-                    <article class=\"col-block\">
-                        
-                        <div class=\"competences-date\">
-                            <a href=\"competences-single.html\">Sept 14, 2017</a>
-                        </div>
+        </div> <!-- end experiences-content buttons -->
 
-                        <h2 class=\"h01\"><a href=\"competences-single.html\">Workspace Design Trends and Ideas.</a></h2>
-                        <p>
-                        Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Pellentesque in ipsum id orci porta dapibus. Donec sollicitudin molestie malesuada. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Cras ultricies ligula sed magna dictum porta. Sed porttitor lectus nibh dolore irure esse Duis nulla sint.
-                        </p>
-
-                        <div class=\"competences-cat\">
-                            <a href=\"competences.html\">Branding</a><a href=\"competences.html\">Wordpress</a>
-                        </div>
-                    </article>
-                    <article class=\"col-block\">
-                        
-                        <div class=\"competences-date\">
-                            <a href=\"competences-single.html\">Sept 12, 2017</a>
-                        </div>    
-                        <h2 class=\"h01\"><a href=\"competences-single.html\">Using Patterns in your Branding.</a></h2>
-                        <p>
-                        Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Pellentesque in ipsum id orci porta dapibus. Donec sollicitudin molestie malesuada. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Cras ultricies ligula sed magna dictum porta. Sed porttitor lectus nibh.
-                        </p>
-
-                        <div class=\"competences-cat\">
-                            <a href=\"competences.html\">Design</a><a href=\"competences.html\">Branding</a>
-                        </div>
-                    </article>
-                </div> <!-- end competences-list -->
-
-            </div> <!-- end col-full -->
-        </div> <!-- end competences-content -->
-
-    </section> <!-- end s-competences -->
+        
 
 
     <!-- s-cta
@@ -1762,46 +1515,64 @@ class __TwigTemplate_30e20a622b22884a3967f8e1220353b9c1e774d3cbe419356a0213ab3ad
     
     
     
+
+    <!-- testimonials
+    ================================================== -->
+    <div class=\"s-testimonials\">
+
+        <div class=\"overlay\"></div>
+
+        <div class=\"row testimonials-header\">
+            <div class=\"col-full\">
+                <h1 class=\"h02\">Loisirs</h1>
+            </div>
+        </div>
+
+        <div class=\"col-md-9\">
+                    <div class=\"row\">
+                        <div class=\"col-md-12\">
+                            {% for formation in formations %}
+                                <div class=\"content-item\">
+                                    <small>{{ formation.getDateDebut()|date(\"Y-m-d\") }} - {{ formation.getDateFin()|date(\"Y-m-d\") }}</small>
+                                    <h3>{{ formation.getName() }}</h3>
+                                    <h4>{{ formation.getLieu() }}</h4>
+
+                                    <p></p>
+                                </div>
+                            {% endfor %}
+                            
+                            <!-- .experience-item -->
+                        </div>
+                    </div>
+                    <!--.row-->
+                </div>
+
+</div>
+
+    </div> <!-- end s-testimonials -->
     
     
     <!-- loisirs
     ================================================== -->
     <section id=\"loisirs\" class=\"s-loisirs target-section\">
         
-        <div class=\"row narrow section-intro has-bottom-sep\">
-            <div class=\"col-full text-center\">
-                <h3>Loisirs</h3>
-                <p class=\"lead\">Lorem ipsum Dolor adipisicing nostrud et aute Excepteur amet commodo ea dolore irure esse Duis nulla sint fugiat cillum ullamco proident aliquip quis qui voluptate dolore veniam Ut laborum non est in officia.</p>
-            </div>
-        </div>
-
         <div class=\"row loisirs-content\">
 
-            <div class=\"col-six tab-full left\">
-                <h3>Howdy!</h3>
-
-                <p>Lorem ipsum Ut eiusmod ex magna sit dolor esse adipisicing minim ad cupidatat eu veniam nostrud mollit laboris sunt magna velit culpa consectetur nostrud consectetur labore sed do.</p>
-
-                <p>
-                Lorem ipsum Nisi officia Duis irure voluptate dolor commodo pariatur occaecat aliquip adipisicing voluptate Ut in qui ea sint occaecat in commodo in in in incididunt ut sunt in Ut Duis in ut ex qui anim cupidatat cupidatat ex in non dolore labore ea amet cillum ea qui dolor nisi sed velit mollit exercitation ex fugiat labore in deserunt culpa laborum culpa anim dolore laboris amet irure mollit proident velit fugiat aute ea elit magna consequat qui officia quis elit Duis dolor esse cupidatat tempor proident voluptate aliqua ex cupidatat do eiusmod veniam irure laborum ut magna nostrud dolore ullamco commodo elit sit magna aliqua laborum veniam officia dolor.\t
-                </p>
-            </div>
-
             <div class=\"col-full tab-full right\">
-                <h3>I've Got Some skills.</h3>
+                <h3>I've Got Some hobbies.</h3>
 
                 <ul class=\"skill-bars\">
                     <li>
                     <div class=\"progress percent90\"><span>90%</span></div>
-                    <strong>2ème cycle de piano</strong>
+                    <strong>Piano</strong>
                     </li>
                     <li>
                     <div class=\"progress percent85\"><span>70%</span></div>
-                    <strong>Badminton</strong>
+                    <strong>Photographie</strong>
                     </li>
                     <li>
                     <div class=\"progress percent70\"><span>85%</span></div>
-                    <strong>Photographie</strong>
+                    <strong>Badminton</strong>
                     </li>
                    
                 </ul>
@@ -1822,9 +1593,7 @@ class __TwigTemplate_30e20a622b22884a3967f8e1220353b9c1e774d3cbe419356a0213ab3ad
                                 <h3>{{ formation.getName() }}</h3>
                                 <h5>{{ formation.getLieu() }}</h5>
                             </div>
-                            <div class=\"timeline__desc\">
-                                <p>Lorem ipsum Occaecat do esse ex et dolor culpa nisi ex in magna consectetur nisi cupidatat laboris esse eiusmod deserunt aute do quis velit esse sed Ut proident cupidatat nulla esse cillum laborum occaecat nostrud sit dolor incididunt amet est occaecat nisi.</p>
-                            </div>
+                            
                         </div> <!-- end timeline__block -->
                     {% endfor %}
 
@@ -1898,8 +1667,7 @@ class __TwigTemplate_30e20a622b22884a3967f8e1220353b9c1e774d3cbe419356a0213ab3ad
             </div>
             <div class=\"col-four tab-full contact__infos\">
                 <h4 class=\"h06\">Phone</h4>
-                <p>Phone: (+63) 555 1212<br>
-                Mobile: (+63) 555 0100
+                <p>Mobile: 06 40 42 83 62
                 </p>
 
                 <h4 class=\"h06\">Email</h4>
